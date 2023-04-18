@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="userPageVM" type="com.aydolsapplication.app.modules.userpage.data.viewmodel.UserPageVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumnuserprofile"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_16pxv"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearUSERPAGE"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylewhite_A700">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtUSERPROFILE"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_98pxh"
+                android:layout_marginStart="@dimen/_98pxh"
+                android:layout_marginTop="@dimen/_10pxh"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{userPageVM.userPageModel.txtUSERPROFILE}"
+                android:textColor="#4B5E26"
+                android:textSize="40sp"
+                android:textStyle="bold"  tools:text="@string/lbl_user_profile"/>
+
+            <ImageView
+                android:id="@+id/imageProfileuserOne"
+                imageRes="@{@drawable/img_profileuser1}"
+                android:layout_width="@dimen/_163pxh"
+                android:layout_height="@dimen/_161pxh"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="@dimen/_98pxh"
+                android:layout_marginTop="@dimen/_22pxv"
+                android:layout_marginEnd="@dimen/_98pxh"
+                android:scaleType="fitXY"
+                tools:ignore="ContentDescription,ImageContrastCheck"
+                tools:src="@drawable/img_profileuser1" />
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtInspector"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_98pxh"
+                android:layout_marginStart="@dimen/_98pxh"
+                android:layout_marginTop="@dimen/_23pxv"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:text="@{userPageVM.userPageModel.txtInspector}"
+                android:textColor="#4B5E26"
+                android:textSize="40sp"
+                android:textStyle="bold" tools:text=""/>
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearRowlogoutone"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20pxv"
+                android:layout_width="match_parent"
+                android:orientation="horizontal" style="@style/groupStyle_1">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnLogoutOne"
+                    style="@style/btn"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="@dimen/_42pxh"
+                    android:layout_marginTop="@dimen/_26pxv"
+                    android:layout_marginBottom="@dimen/_329pxv"
+                    android:background="@drawable/img_logout1"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:scaleType="fitXY"
+                    android:singleLine="true"
+                    android:textAllCaps="false"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    tools:src="@drawable/img_logout1" />
+
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtLogOut"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_marginStart="@dimen/_9pxh"
+                    android:layout_marginTop="@dimen/_29pxv"
+                    android:layout_marginBottom="@dimen/_327pxv"
+                    android:layout_weight="0.75"
+                    android:singleLine="true"
+                    android:text="@{userPageVM.userPageModel.txtLogOut}"
+                    android:textColor="#4B5E26"
+                    android:textSize="40sp"
+                    android:textStyle="bold" tools:text="@string/lbl_log_out2"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

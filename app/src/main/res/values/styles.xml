@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="txtArialmt10">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/light_green_900</item>
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtArialmt12_1">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/red_800</item>
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylewhite_A700_99">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_99</item>
+    </style>
+    <style name="txtArialmt12">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/light_green_900</item>
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStyle_1">
+        <item name="android:background">@drawable/rectangle_border_amber_300</item>
+    </style>
+    <style name="txtArialboldmt20">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/light_green_900</item>
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtArialmt10_1">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylecornerRadius">
+        <item name="android:background">@drawable/rectangle_radius_5</item>
+    </style>
+    <style name="txtArialboldmt12">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/red_800</item>
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtArialboldmt16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/light_green_900</item>
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="btn">
+        <item name="android:textSize">@dimen/_8pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:background">@drawable/rectangle_dhi_0</item>
+    </style>
+    <style name="btnSolidRoundedOutline">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/light_green_900</item>
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_bg_amber_300_border_amber_300_radius_5</item>
+    </style>
+    <style name="groupStylewhite_A700">
+        <item name="android:background">@drawable/rectangle_bg_white_a700</item>
+    </style>
+    <style name="groupStylecornerRadius_3">
+        <item name="android:background">@drawable/rectangle_border_amber_300_radius_5</item>
+    </style>
+    <style name="groupStylecornerRadius_2">
+        <item name="android:background">@drawable/rectangle_border_orange_a100_radius_5</item>
+    </style>
+    <style name="txtArialboldmt32">
+        <item name="android:textSize">@dimen/_32pxh</item>
+        <item name="android:textColor">@color/light_green_900</item>
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtArialboldmt10">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/light_green_900</item>
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStylecornerRadius_1">
+        <item name="android:background">@drawable/rectangle_border_amber_300_radius_20</item>
+    </style>
+    <style name="etSolidRoundedOutline">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_99_border_light_green_900_radius_5</item>
+    </style>
+    <style name="txtArialboldmt16_2">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/amber_600</item>
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtArialboldmt16_1">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/red_800</item>
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="btnRoundedOutline">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/green_900</item>
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_border_amber_300_radius_20</item>
+    </style>
+    <style name="groupStyleyellow_200_66cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_yellow_200_66_border_amber_300_radius_5</item>
+    </style>
+    <style name="txtArialboldmt12_1">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/light_green_900</item>
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStyle">
+        <item name="android:background">@drawable/rectangle_dhi_0</item>
+    </style>
+</resources>
